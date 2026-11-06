@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px;
+  background: #f3f4f6;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #1f2937;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+nav a.active {
+  color: #2563eb;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: disc;
+  display: inline-block;
+  text-align: left;
+}
